@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap')
+	;
+
+body {
+	/* 先套用 Noto Sans TC 這個 思源宋體 */
+	font-family: 'Noto Serif TC', serif;
+	background-color: white;
+}
+
+input::-webkit-input-placeholder {
+	font-family: 'Noto Serif TC', serif;
+}
+
+.signinbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.loginpage {
+	background:linear-gradient(rgba(255, 255, 255, 0.7), 
+	rgba(255, 255, 255, 0.7)),url('${pageContext.servletContext.contextPath}/picture/loginpic.jpg');
+	color: rgba(26, 21, 21);
+	text-align: center;
+	max-width: 100%;
+	width: 45%;
+	height: 65%;
+	border-radius: 5px;
+	padding-top: 50px;
+	box-shadow: 0 0 10px #000;
+}
+
+.loginpage input:focus {
+	box-shadow: 0 0 10px rgba(51, 37, 37, 0.5);
+}
+
+#emailIn, #passwordIn, #new-forgot{
+
+	width:45%;
+	height: 50px;
+	outline: 0;
+	text-align: center;
+	border-top: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+	
+}
+
+label {
+	width: 150px;
+	display: inline-block;
+	outline: none;
+	text-align: center;
+	
+}
+
+#email, #password, #passwordcheck, #tel {
+	
+	width: 50%;
+	height: 30px;
+	outline: 0;
+	text-align: center;
+	border-top: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+}
+
+#btnSignIn, #btnSignUp ,.btnForget{
+	
+	width: 45%;
+	height: 45px;
+	background-color: #e79822;
+	cursor: pointer;
+	font-family: 'Noto Serif TC', serif;
+	border-top: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+	font-size:16px;
+}
+
+
+#googleSignUpPopup, #facebookSignUpPopup {
+	background-color: white;
+	color: black;
+	outline: none;
+	width: 73%;
+	height: 45px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 10px;
+	cursor: pointer;
+	font-family: 'Noto Serif TC', serif;
+	border-top: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+}
+
+#googleSignUpPopup img, #facebookSignUpPopup img {
+	width: 20px;
+	height: 20px;
+}
+
+#tab {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:auto;
+	padding-top:15px;
+	padding-bottom:30px;
+	padding-right:40px;
+
+}
+
+#tab li {
+	display: inline;
+	list-style: none;
+	padding: auto;
+	width: 120px;
+	height: 40px;
+	font-size: 20px;
+	font-weight:bold;
+	font-family: 'Noto Serif TC', serif;
+}
+
+
+
+#content1 a {
+	text-decoration: none;
+	color: beige;
+}
+
+#content2 {
+	display: none;
+	padding-top: 30px;
+}
+#content3 {
+	display: none;
+	padding-top: 30px;
+}

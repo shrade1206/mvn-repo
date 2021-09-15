@@ -1,0 +1,165 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    padding-top: 200px;
+   
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center
+}
+
+#tab {
+   
+  display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom:30px;
+    border-spacing:50px;
+  
+
+}
+
+#tab li {
+    list-style: none;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 50px;
+    border: 6px double #b3b3b3;
+    font-size:15px;
+    line-height:30px;
+    
+    
+
+}
+#tab li:hover {
+ width: 180px;
+  height: 40px;
+  background-color:#444444;
+  color:#e4e4e4;
+ transition-timing-function: ease;
+   transition-duration: 0.5s;
+}
+
+
+#container {
+    position: relative;
+
+
+}
+
+
+#content1,#content3,#content4 {
+  
+    display: none;
+}
+
+.ordermenu {
+    display: grid;
+    width: 60%;
+    max-width: 60%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: auto;
+    justify-content: center;
+    align-items: center; 
+ margin-bottom:8%;
+   
+} 
+
+
+.ordermenu li {
+    list-style-type: none;
+    border: 1px solid rgb(187, 164, 164);
+    width: 30px;
+    height: 150px;
+    margin: auto;
+    font-size: 20px;
+    display: table;
+ background-color:white;
+ box-shadow: 0 0 10px #a8a78a;
+}
+
+.txt {
+    width: 350px;
+   height:330px;
+    text-align: center;
+ position: relative;
+
+
+}
+
+
+.btn01 span {
+   display: none;
+   position: absolute;
+  width: 350px;
+   height: 240px;
+ 
+}
+
+
+.Img {
+
+     width: 350px;
+   height: 240px;
+     border: 1px solid rgba(187, 164, 164,0.9);
+}
+
+.btn01:hover .Img{
+    display: block;
+    width: 350px;
+   height: 240px;
+    opacity: 0.2; 
+    transition-timing-function: ease;
+     transition-duration: 0.4s;
+  
+ 
+
+}
+
+.btn01:hover span {
+
+    display: block;
+    font-weight: bold;
+     width: 350px;
+   height: 240px;
+     top:100px;
+     color:rgb(60, 60, 60);
+     font-weight:bold;
+   
+   
+    
+ 
+}
+
+.soup{
+	font-size:10px;
+	font-weight:bold;
+}
+
+.btn01{
+  width: 350px;
+   height: 240px;
+border: none;
+}
+
+.clickbtn{
+ text-align: center;
+   margin: 10px;
+}
+
+.clickbtn>.btn {
+	border:none;
+	background-color:rgba(255, 59, 26, 0.9);
+}
+

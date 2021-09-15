@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap')
+	;
+
+body {
+	/* 先套用 Noto Sans TC 這個 思源宋體 */
+	font-family: 'Noto Serif TC', serif;
+}
+
+body {
+	width: 80vw;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+input::-webkit-input-placeholder {
+	font-family: 'Noto Serif TC', serif;
+}
+
+input{
+	font-family: 'Noto Serif TC', serif;
+	width:25;
+}
+
+select {
+	font-family: 'Noto Serif TC', serif;
+	font-size:15px ;
+    position: relative;
+    background-color: transparent;
+    TOP:   -2px;
+    left:-2px;
+    border-width: 0px;
+    border-top-style: none; 
+    border-right-style: none; 
+    border-left-style: none; 
+    border-bottom-style: none;
+    display:block;
+    height: 25px;
+    overflow:hidden;
+}
+
+
+
+.banner {
+	max-width: 100%;
+	display: block;
+}
+
+.banner-box {
+	width: 100%;
+	display: inline-box;
+	vertical-align: middle;
+}
+
+.banner-box:before {
+	content: "";
+	width: 200px;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+
+.banner-box:after {
+	content: "";
+	width: 200px;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+
+.place {
+	height: 400px;
+	display: flex;
+	background-color: rgb(255, 255, 255);
+	border-radius: 6px;
+	text-align: center;
+}
+
+.place2 {
+	width: 80vw;
+	height: 400px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 6px;
+	text-align: center;
+}
+
+.place1 {
+	width: 80vw;
+	height: 400px;
+	display: flex;
+	background-color: rgb(255, 255, 255);
+	border-radius: 6px;
+	text-align: center;
+}
+
+.placeleft {
+	width: 50%;
+	display: flex;
+	background-color: rgb(255, 255, 255);
+}
+
+.placeright {
+	display: flex;
+	width: 50%;
+	background-color: rgb(255, 255, 255);
+}
+
+.left1 {
+	margin: auto;
+	border: 1px solid #ffa953;
+	width: 80%;
+	height: 95%;
+	border-radius: 6px;
+	box-shadow: 0 0 10px #ffa953;
+}
+
+.right1 {
+	margin: auto;
+	width: 80%;
+	height: 100%;
+}
+
+.iframe {
+	float: left;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+.info {
+	position: relative;
+	text-align: left;
+	float: right;
+	padding-right: 30%;
+	line-height: 40px;
+}
+
+.info1 {
+	position: relative;
+	text-align: left;
+	float: right;
+	padding-right: 30%;
+	line-height: 40px;
+}
+
+.info2 {
+	position: relative;
+	text-align: left;
+	float: right;
+	padding-right: 30%;
+	line-height: 40px;
+}
+
+.info3 {
+	position: relative;
+	text-align: left;
+	float: right;
+	padding-right: 30%;
+	line-height: 40px;
+}
+
+.info4 {
+	position: relative;
+	text-align: left;
+	float: right;
+	padding-right: 30%;
+	line-height: 40px;
+}
+
+.info01 a {
+	text-decoration: none;
+	color: black;
+}
+
+label {
+	width: 80px;
+	height: 50px;
+	display: inline-block;
+	outline: none;
+	text-align: center;
+}
+
+input {
+	width: 45%;
+	height: 20px;
+}
+
+.btn3, .btn {
+	width: 200px;
+	height: 40px;
+	border: 1px solid #aaa;
+	background: #e79822;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Noto Serif TC', serif;
+}
+
+.btn2 {
+	width: 200px;
+	height: 30px;
+	border: 1px solid #aaa;
+	background: #f8f8f8;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: 'Noto Serif TC', serif;
+}
+
+#btn, #btn1 {
+	margin-left: 30px;
+}
+
+.left input, select {
+	width: 80%;
+	height: 20px;
+}
+
+button {
+	cursor: pointer;
+}
