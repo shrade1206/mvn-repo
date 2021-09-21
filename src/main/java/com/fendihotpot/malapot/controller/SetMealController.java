@@ -37,9 +37,9 @@ import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.fendihotpot.malapot.dao.SetMealDAO;
 import com.fendihotpot.malapot.domain.I9sBean;
 import com.fendihotpot.malapot.domain.SetMealBean;
+import com.fendihotpot.malapot.i9sDao.SetMealDAO;
 import com.fendihotpot.malapot.service.I9sService;
 import com.fendihotpot.malapot.service.SetMealService;
 import com.fendihotpot.malapot.service.TypeService;

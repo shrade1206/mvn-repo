@@ -8,10 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.fendihotpot.malapot.dao.OrderItemDAO;
-import com.fendihotpot.malapot.dao.OrderListDAO;
 import com.fendihotpot.malapot.domain.OrderItemBean;
 import com.fendihotpot.malapot.domain.OrderListBean;
+import com.fendihotpot.malapot.orderDao.OrderItemDAO;
+import com.fendihotpot.malapot.orderDao.OrderListDAO;
 
 
 @Service

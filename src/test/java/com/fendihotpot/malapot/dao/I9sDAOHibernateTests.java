@@ -6,6 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.fendihotpot.malapot.domain.I9sBean;
+import com.fendihotpot.malapot.i9sDao.I9sDAO;
 
 @SpringBootTest
 public class I9sDAOHibernateTests {

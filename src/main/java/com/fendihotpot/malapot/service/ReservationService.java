@@ -7,8 +7,8 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.fendihotpot.malapot.dao.ReservationDAO;
 import com.fendihotpot.malapot.domain.ReservationBean;
+import com.fendihotpot.malapot.reservationDAO.ReservationDAO;
 
 @Service
 @Transactional

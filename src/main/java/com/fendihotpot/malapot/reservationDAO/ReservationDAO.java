@@ -1,4 +1,4 @@
-package com.fendihotpot.malapot.dao;
+package com.fendihotpot.malapot.reservationDAO;
 
 import java.util.List;
 

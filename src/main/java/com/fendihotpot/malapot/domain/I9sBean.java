@@ -18,16 +18,22 @@ public class I9sBean {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="ID")
 	private Integer i9sId;
+	
 	@Column(name="NAME")
 	private String i9sName;
+	
 	@Column(name="UNIT")
 	private String unit;
+	
 	@Column(name="KCAL")
 	private Integer kcal;
+	
 	@Column(name="PRICE")
 	private Integer i9sPrice;
+	
 	@Column(name="TYPE_ID")
 	private Integer i9sType;
+	
 	@Column(name="PICTURE")
 	private String i9sPicture;
 

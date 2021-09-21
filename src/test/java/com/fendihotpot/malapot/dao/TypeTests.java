@@ -15,6 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.fendihotpot.malapot.domain.I9sBean;
 import com.fendihotpot.malapot.domain.SetMealBean;
 import com.fendihotpot.malapot.domain.TypeBean;
+import com.fendihotpot.malapot.i9sDao.TypeDAO;
 import com.fendihotpot.malapot.service.TypeService;
 
 @SpringBootTest

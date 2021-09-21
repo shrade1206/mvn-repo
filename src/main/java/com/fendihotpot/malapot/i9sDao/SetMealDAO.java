@@ -1,4 +1,4 @@
-package com.fendihotpot.malapot.dao;
+package com.fendihotpot.malapot.i9sDao;
 
 import java.util.List;
 import java.util.Set;

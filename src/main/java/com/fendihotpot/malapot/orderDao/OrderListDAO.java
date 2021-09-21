@@ -1,4 +1,4 @@
-package com.fendihotpot.malapot.dao;
+package com.fendihotpot.malapot.orderDao;
 
 import java.util.List;
 import java.util.Map;

@@ -2,6 +2,9 @@ package com.fendihotpot.malapot.dao;
 import java.util.List;
 import java.util.Optional;
 
+import javax.persistence.PersistenceContext;
+
+import org.hibernate.Session;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,20 +19,20 @@ import com.fendihotpot.malapot.domain.I9sBean;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class I9sTests {
-	@Autowired
-	private I9sRepository i9sRepository;
-	
+
+	@PersistenceContext
+	private Session session;
 	
 	@Test
 	@Transactional
-	public void test() throws Exception {
-		//查全部
-		List<I9sBean> selectAll = i9sRepository.findAll();
-		System.out.println(selectAll);
-		//查指定ID
-		Optional<I9sBean> selectOne = i9sRepository.findById(7);
-		System.out.println(selectOne);
+	public void test() {
+		List<?> result = session.createNativeQuery("select * from ingredients").list();
+		for (Object obj : result) {
+			Object[] array = (Object[]) obj;
+			System.out.println(array[0] + ":" + array[1] + ":" + array[2]+ ":" + array[3] + ":" + array[4]);
+		}
 		
-//		Optional<I9sBean> findOne = i9sRepository.findOne(null);
 	}
+	
+
 }
