@@ -1,14 +1,14 @@
 結訓專題，素材皆為練習，非營利用途
 
 後端負責
-src/main/java/com/fendihotpot/malapot /n
-/config → SecurityConfig /n
-/i9sDao → I9sService /n
-/i9sDao → I9sDAO /n
-/i9sDao → I9sDAOHibernate /n
-/domain → I9sBean /n
-/controller → I9sController /n
-/controller → TypeController /n
+src/main/java/com/fendihotpot/malapot
+/config → SecurityConfig
+/i9sDao → I9sService
+/i9sDao → I9sDAO
+/i9sDao → I9sDAOHibernate
+/domain → I9sBean
+/controller → I9sController
+/controller → TypeController
 
 前端負責
 src/main/webapp/WEB-INF/views/backend/
